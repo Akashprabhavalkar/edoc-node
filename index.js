@@ -30,7 +30,7 @@ app.use((req, res, next) => {
     }
     next();
 });
-app.listen(8080, function() {
+app.listen(80, function() {
     console.log("server running")
 })
 
