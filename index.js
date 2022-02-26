@@ -14,7 +14,7 @@ app.use(express.static('public'));
 
 
 
-mongoose.connect("mongodb+srv://akash:<password>@cluster0.haagk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://akash:akash1234@cluster0.haagk.mongodb.net/test");
 const db = mongoose.connection;
 db.on("error", error => console.log(error));
 db.on("open", () => console.log("Connection Established"));
